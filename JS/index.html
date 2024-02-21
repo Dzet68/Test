@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        html: dựng khung trang web
+        css: làm đẹp trang web
+        javascript: làm cho trang web có thể tương tác với người dùng: ấn nút, nhập... 
+    -->
+    <!--
+        tư duy lập trình với javascript:
+        1. nhập xuất
+        2. biến, kiểu dữ liệu, toán tử: + - * /
+        3. điều kiện
+        4. vòng lặp
+        5. mảng
+        6. hàm
+    -->
+    <script>
+        // nhập xuất: làm thế nào đó chúng ta in chuỗi ra màn hình hoặc nhập vào 1 chuỗi...
+
+        // xuất: in ra 1 cái gì đó với ngôn ngữ lập trình
+        // alert("Hello World");
+        // document.write("Hello mn");
+        // document.write("<a>Helloo</a>");
+        // console.log("Hi mn"); 
+
+        // nhập: nhập từ màn hình
+       // let a = +prompt("Mời bạn nhập");
+       // a = a + 5;
+       //alert(a);
+       // kiểu dữ liệu: số và chữ
+       // let a = 1; // số
+       // let b = "2"; // chữ
+
+       // toán tứ: + - * /
+       // nhân chia trước, cộng trừ sau, ưu tiên ngoặc, từ trái qua phải
+
+       // nhân, chia, trừ, tính toán như bt ('2'*3 => 6, '2'*'3'=> 6)
+       // 1 + 2 => 3
+       // '1' + 2 => '12'
+       // '1' + '2' => '12'
+       // '1' + 2 + 3 => '123'
+       // 1 + '2' +3 => '123'
+       // 1 + 2 + '3' => 3 + '3' => 33
+       // '1' + (2+3) => '15'
+       // '2' * (2+3) => 10
+       // let a = +prompt ("Nhập vào số thứ nhất: ");
+       // let b = +prompt ("Nhập vào số thứ hai: ");
+       // let c = a + b;
+       // alert (c) 
+
+       // toán tử số học: + - * / %(mod)
+       // c = 10/6 = 1.67
+       // d = 32 % 6 = 2
+
+       // toán tử gán: = += *= /= %= -=
+       // a = 10
+       // a += 5; => a = a + 5 = 15;
+       // b = 20; b -= 5 => b = b - 5 = 15;
+       // c = 10; c *= 1/2 => c = c * 1/2 = 5;
+       // d = 10; d %= 3 => d = d % 3 = 1;
+
+       // toán tử so sánh: ==, !=, >, <, >=, <=, ===
+       // 2 == '2' => đúng
+       // 2 === '2' => sai
+       // 3 != 2 => đúng
+       // let a = 5; // number
+       // let b = '5' // string
+       // let c = a + b // string
+       // let d = a >= 10 // boolean (true/false)
+
+       // toán tử logic: ! , &&, ||, &, |
+       // a = 10; a==10 = true => !(a==10) = false
+       // d = true, e = false => f = e & d = false
+       // d = true, e = true => f = e & d = true
+       // d = true, e = false => f = e | d = true
+
+       let a = prompt ("Nhập vào ngày");
+       let b = prompt ("Nhập vào tháng");
+       let c = prompt ("Nhập vào năm");
+       alert (a + '-' + b + '-' + c)
+
+    </script>
+</body>
+</html>
